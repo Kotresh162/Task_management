@@ -55,7 +55,7 @@ type RequestVoteReply struct {
 
 // Initialize MySQL database connection
 func InitDB() *sql.DB {
-	db, err := sql.Open("mysql", "root:N!kh!l#1711@tcp(127.0.0.1:3306)/task_manager")
+	db, err := sql.Open("mysql", "root:Kotresh893@(127.0.0.1:3306)/task_manager")
 	if err != nil {
 		log.Fatal("Error connecting to database:", err)
 	}
